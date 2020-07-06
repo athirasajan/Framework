@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="94240" started-at="2020-02-24T08:08:56Z" finished-at="2020-02-24T08:10:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="94240" started-at="2020-02-24T08:08:56Z" finished-at="2020-02-24T08:10:30Z">
+      <class name="com.review.testcases.Verify1ArticleSubmission">
+        <test-method status="PASS" signature="SetUp()[pri:0, instance:com.review.testcases.Verify1ArticleSubmission@31ef45e3]" name="SetUp" is-config="true" duration-ms="2338" started-at="2020-02-24T08:08:56Z" finished-at="2020-02-24T08:08:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.review.testcases.Verify1ArticleSubmission@31ef45e3]" name="Login" duration-ms="91173" started-at="2020-02-24T08:08:59Z" data-provider="getArticleSubmissionData" finished-at="2020-02-24T08:10:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[kiran]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[research]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Tttestt]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Articlleee ]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[/home/deepthi/Desktop/download.jpg]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:com.review.testcases.Verify1ArticleSubmission@31ef45e3]" name="TearDown" is-config="true" duration-ms="56" started-at="2020-02-24T08:10:30Z" finished-at="2020-02-24T08:10:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.review.testcases.Verify1ArticleSubmission -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
